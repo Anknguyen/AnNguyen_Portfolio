@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="details.css">
+    <head>
+      
+      <style>
+        
+        
+
+        .link{
+          margin-left:80px;
+          margin-right:15px;
+        }
+        .title{
+          margin-top:60px;
+          padding-top:10px;
+          padding-bottom:50px;
+          text-align:center;
+          background-color: #daecee;
+          font-size: 50px;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .aboutme{
+          padding-bottom:50px;
+          text-align:center;
+          background-color: #daecee;
+          font-size: 21px;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .first-grid-container {
+          display: grid;
+          grid-template-columns: .75fr 2fr;
+          grid-template-rows: 2fr;
+          column-gap: 15px;
+          row-gap: 40px;
+          background-color: #daecee;
+          padding-bottom: 30px;
+          padding-left:10px;
+          padding-right:10px;
+        }
+        .first-grid-container > div {
+          background-color: rgba(240, 245, 247, 0.8);
+          text-align: center;
+          padding: 20px 0;
+          font-size: 30px;
+          
+        }
+
+        .grid-container {
+          display: grid;
+          grid-template-columns: .5fr 1fr 1fr;
+          grid-template-rows: 2fr 2fr 2fr;
+          column-gap: 15px;
+          row-gap: 40px;
+          background-color: #daecee;
+          padding: 10px;
+        }
+        .work{
+          background-color: rgba(240, 245, 247, 0.8);
+          text-align: center;
+          padding: 20px 0;
+          font-size: 30px;
+        }
+        
+        .item3 {
+          background-color: rgba(240, 245, 247, 0.8);
+          text-align: center;
+          padding: 20px 0;
+          font-size: 30px;
+        }
+
+        .end-grid-container {
+          display: grid;
+          grid-template-columns: .75fr 2fr 1fr;
+          grid-template-rows: 2fr;
+          column-gap: 15px;
+          row-gap: 40px;
+          background-color: #daecee;
+          padding-top: 30px;
+          padding-left:10px;
+          padding-right:10px;
+          padding-bottom:25px;
+        }
+        
+        .end-grid-container > div {
+          background-color: rgba(240, 245, 247, 0.8);
+          text-align: center;
+          padding: 20px 0;
+          font-size: 30px;
+          
+        }
+        
+        
+        .header{
+        height:55px;
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        background-color: rgb(98, 194, 238);
+        border-bottom:1px;
+        border-bottom-style:solid;
+        border-bottom-color:rgb(241, 241, 241);
+        z-index: 100;
+      }
+      .left{
+        
+        display:flex;
+        align-items:center;
+        padding-left:15px;
+      }
+      .middle{
+        
+        flex:1;
+        margin-left: 70px;
+        margin-right: 40px;
+        max-width: 550px;
+        display:flex;
+        align-items:center;
+
+      }
+
+      .Buttonabout{
+        height:45px;
+        margin-right:150px;
+        margin-left:50px;
+        background-color: #6dcbeb;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+        min-width: 130px;
+        
+      }
+      .Buttonwork{
+        height:45px;
+        background-color: #6dcbeb;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+      
+      }
+
+      .right{
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+        width :180px;
+        margin-right:20px;
+        flex-shrink:0;
+      }
+
+      .Buttoncontact{
+        height:45px;
+        background-color: #6dcbeb;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+      
+      }
+        </style>
+  </head>
+<body>
+
+  <div id="aboutme" class="title"> An Nguyen's Portfolio </div>
+  <div  class="aboutme"> Hi! I am a 22 year old currently studying information systems and database management at UNCG.  </div>
+
+  <div class="header">
+    <div class="left">
+      <img src="Profilepic.jpg" alt="Github Link" style="width:45px;height:45px;padding:2px;border-radius: 24px;"></a>
+    </div>
+    <div class=middle>
+      <button class="Buttonabout">
+        <a href="#aboutme">About Me</a>
+      </button>
+      <button class="Buttonwork">
+        <a href="#work">Work</a>
+      </button>
+    </div>
+    <div class="right">
+      <button class="Buttonwork">
+        <a href="#contact">Contact Me</a>
+      </button>
+    </div>
+  </div>
+
+  <div class="first-grid-container">
+    <div class="firstwork">My First Project </div>
+    <div class="first">
+        
+       <a href="https://github.com/Anknguyen/Horiseon_HTML_CSS"><img src="Firstimage.jpeg" alt="Github Link" style="width:90%;height:200px;padding:10px;"></a>
+      </div>
+      </div>
+<div class="grid-container">
+  
+  <div id="work" class="work">Work</div>
+  <div class="item3">TBD</div>
+  <div class="item3">TBD</div>  
+  <div class="section"></div> 
+  <div class="item3">TBD</div> 
+  <div class="item3">TBD</div> 
+  <div class="section"></div> 
+  <div class="item3">TBD</div> 
+  <div class="item3">TBD</div> 
+
+</div>
+<div class="end-grid-container">
+  <div id="contact" class="contact">Contact Me</div>
+  <div class="email">akimnguyen1999@gmail.com </div>
+<div class="phone">919-230-0092</div>
+</div>
+
+
+</body>
+</html>
