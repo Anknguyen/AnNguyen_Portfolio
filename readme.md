@@ -5,4 +5,4 @@ It also contains a menu bar at the top which has fixed positioning to make sure 
 
 Link to deployed application: http://127.0.0.1:5500/Portfolio.html
 
-![Screenshot of website](Screenshot.png)
+![Screenshot of website](assets/Screenshot.png)
